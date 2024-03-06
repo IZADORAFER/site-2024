@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(182, 245, 182);
+}
+
+header {
+    background-image: url('cachorro.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#recipes {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.caixa {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-color: rgb(60, 225, 60);
+  }
+
+  .caixa a:hover {
+    background-color: rgb(39, 149, 39);
+  }
+
+  .caixa a {
+    display: block;
+    text-align: center;
+    background-color: rgb(60, 225, 60);
+    color: black;
+    padding: 10px 0;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
