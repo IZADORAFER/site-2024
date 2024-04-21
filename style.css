@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(182, 245, 182);
+    background-image: linear-gradient(360deg, rgb(30, 78, 30), rgb(63, 241, 81) );
 }
 
 header {
@@ -34,13 +34,7 @@ header {
 
 #recipes {
     padding: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
     text-align: center;
-    padding: 10px 0;
 }
 
 .container{
@@ -48,6 +42,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    padding: 10px;
 }
 
 .caixa {
@@ -57,13 +52,13 @@ footer {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     text-align: center;
     background-color: rgb(60, 225, 60);
-  }
+}
 
-  .caixa a:hover {
+.caixa a:hover {
     background-color: rgb(39, 149, 39);
-  }
+}
 
-  .caixa a {
+.caixa a {
     display: block;
     text-align: center;
     background-color: rgb(60, 225, 60);
@@ -71,4 +66,42 @@ footer {
     padding: 10px 0;
     text-decoration: none;
     transition: background-color 0.3s ease;
-  }
+}
+
+img {
+    align-items: center;
+}
+
+h1, h2{
+    color: black;
+    text-shadow: white 3px 4px 3px;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.quadrado-impar {
+    background-color: #ccc;
+    text-align: justify;
+    margin: 5px;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    width: 530px;
+    margin: 2.5%;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+  
+.quadrado-par {
+    background-color: #ccc;
+    text-align: justify;
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    width: 820px;
+    margin: 2.5%;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
