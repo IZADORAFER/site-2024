@@ -1,107 +1,29 @@
+:root{
+    --cor-fundo: #01080E ;
+    --cor-principal: #0B0D20 ;
+    --cor-secundaria: #212333; 
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #D7F9FF;
+
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-image: linear-gradient(360deg, rgb(30, 78, 30), rgb(63, 241, 81) );
-}
-
-header {
-    background-image: url('cachorro.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    position: relative;
-    color: white;
-    text-align: center;
-}
-
-.header-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.header-content h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
-
-.header-content p {
-    font-size: 1.5em;
-    font-style: italic;
-}
-
-#recipes {
-    padding: 20px;
-    text-align: center;
-}
-
-.container{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    padding: 10px;
+    min-height: 100vh;
 }
 
-.caixa {
-    margin: 10px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
     text-align: center;
-    background-color: rgb(60, 225, 60);
-}
-
-.caixa a:hover {
-    background-color: rgb(39, 149, 39);
-}
-
-.caixa a {
-    display: block;
-    text-align: center;
-    background-color: rgb(60, 225, 60);
-    color: black;
-    padding: 10px 0;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-img {
-    align-items: center;
-}
-
-h1, h2{
-    color: black;
-    text-shadow: white 3px 4px 3px;
-    font-size: 30px;
-    font-family: monospace;
-}
-
-.quadrado-impar {
-    background-color: #ccc;
-    text-align: justify;
-    margin: 5px;
-    font-size: 16pt;
-    font-family: Arial, Helvetica, sans-serif;
-    color: red;
-    width: 530px;
-    margin: 2.5%;
     padding: 20px;
-    box-sizing: border-box;
-    float: left;
 }
-  
-.quadrado-par {
-    background-color: #ccc;
-    text-align: justify;
-    font-size: 20pt;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blue;
-    width: 820px;
-    margin: 2.5%;
-    padding: 20px;
-    box-sizing: border-box;
-    float: left;
+
+h1{
+    color: var(--cor-destaque);
 }
